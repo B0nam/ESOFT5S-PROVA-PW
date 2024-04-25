@@ -36,6 +36,9 @@ function gerarListaMunicipio(municipio)
     listaBase.appendChild(elementoLista);
     elementoLista.appendChild(conteudoLista);
 
+    const btn = document.createElement("button");
+    btn.innerHTML = "Favoritar";
+    elementoLista.appendChild(btn);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
