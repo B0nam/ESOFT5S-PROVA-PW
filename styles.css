@@ -27,6 +27,7 @@ body {
 main {
   text-align: center;
   font-weight: bold;
+  min-height: 400px;
 }
 
 main a[href]{
