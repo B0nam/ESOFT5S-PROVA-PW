@@ -1,0 +1,64 @@
+/* Reset de estilos para garantir consistência em diferentes navegadores */
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 100px auto 50px;
+}
+
+main {
+  text-align: center;
+  font-weight: bold;
+}
+
+main a[href]{
+  text-decoration: none;
+  color: #333;
+}
+
+main a[href]:hover {
+  opacity: 0.8;
+}
+
+main ul {
+  margin: 20px;
+  list-style: none;
+}
+
+header {
+  background-color: #0074d9;
+  color: white;
+  font-weight: bold;
+  align-content: center;
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+
+footer {
+  background-color: #333;
+  align-content: center;
+  text-align: center;
+}
